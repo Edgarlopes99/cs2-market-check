@@ -1,0 +1,11 @@
+# A carteira é pessoal e nunca vai para o repositório (regra não negociável).
+portfolio*
+carteira*
+*.private.json
+wallet*
+
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.claude/

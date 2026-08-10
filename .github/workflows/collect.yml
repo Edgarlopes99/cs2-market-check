@@ -1,0 +1,33 @@
+name: Recolha diária
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # 03:00 UTC todos os dias
+  workflow_dispatch: {}     # botão "Run workflow" no GitHub, para correr à mão
+
+permissions:
+  contents: write
+
+jobs:
+  recolher:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Correr o coletor
+        run: python collector/run.py
+
+      - name: Commit dos dados
+        run: |
+          git config user.name "cs2-market-check bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && echo "Sem alterações a gravar." || git commit -m "Snapshot diário $(date -u +%Y-%m-%d)"
+          git push
