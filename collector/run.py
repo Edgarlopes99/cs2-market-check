@@ -12,6 +12,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from collector.sources import skinport, steam
 from collector.sources.skinport import SkinportError
+from collector import cursor as cursor_mod
 from collector import storage, universe
 
 
@@ -60,9 +61,12 @@ def main() -> int:
     print(f"  {len(itens)} itens no catálogo, {len(vendas)} com histórico de vendas.")
 
     caixas = universe.container_names(itens)
-    print(f"A pedir preços à Steam para {len(caixas)} caixas (isto demora alguns minutos, um pedido de cada vez)...")
-    dados_steam, falhas_steam = steam.fetch_priceoverview_batch(caixas)
-    print(f"  Steam respondeu para {len(dados_steam)} de {len(caixas)} caixas.")
+    cursor = cursor_mod.carregar()
+    ordem = cursor_mod.ordenar_por_antiguidade(caixas, cursor)
+    print(f"A pedir preços à Steam para {len(ordem)} caixas, começando pelas há mais tempo sem dados "
+          f"(isto demora ~{len(ordem) * 8 // 60} minutos, um pedido de cada vez)...")
+    dados_steam, falhas_steam = steam.fetch_priceoverview_batch(ordem)
+    print(f"  Steam respondeu para {len(dados_steam)} de {len(ordem)} caixas.")
     if falhas_steam:
         aviso = f"A Steam não respondeu para {len(falhas_steam)} caixas hoje (bloqueio de IP ou item sem dados)."
         print(f"  Aviso: {aviso}")
@@ -71,14 +75,20 @@ def main() -> int:
     linhas = construir_linhas(itens, vendas, dados_steam)
 
     if dry_run:
-        print(f"\n--dry-run: nada foi gravado. Teria escrito {len(linhas)} linhas.")
+        print(f"\n--dry-run: nada foi gravado. Teria escrito {len(linhas)} linhas e atualizado o cursor Steam.")
         return 0
 
     dia = date.today()
     caminho = storage.gravar_snapshot(dia, linhas)
     storage.atualizar_saude(dia, n_itens=len(linhas), n_steam=len(dados_steam), avisos=avisos)
+
+    for nome in dados_steam:
+        cursor[nome] = dia.isoformat()
+    cursor_mod.gravar(cursor)
+
     print(f"\nSnapshot gravado em {caminho} ({len(linhas)} linhas).")
     print(f"data/health.json atualizado às {datetime.now(timezone.utc).isoformat()} UTC.")
+    print(f"data/steam_cursor.json atualizado com {len(dados_steam)} itens.")
     return 0
 
 
