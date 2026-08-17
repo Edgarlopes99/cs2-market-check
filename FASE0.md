@@ -166,6 +166,8 @@ Limitação: 1 pedido = 1 item, e a Steam corta por IP acima de ~20 pedidos/minu
 
 O `itemordershistogram` (que daria as buy orders, e portanto o spread) devolveu `{"success":104}` — precisa de um `item_nameid` interno que só se obtém a partir da página do item, e essa página devolveu **HTTP 302** aos meus pedidos. Fica por resolver.
 
+**Atualização — teste a partir de um runner do GitHub (2026-08-14):** o `priceoverview` foi testado com 419 pedidos seguidos (pausa de 8s, recuo exponencial em caso de bloqueio) a partir do workflow "Recolha diária". **Resultado: 419 de 419, sem um único bloqueio.** Repetiu-se sozinho todos os dias seguintes (14 a 17 de agosto), sempre 419/419. O medo de bloqueio por IP partilhado nos runners não se confirmou, pelo menos até agora — a fonte Steam fica confirmada como viável para a recolha diária automática.
+
 ---
 
 ## O buraco que fica
