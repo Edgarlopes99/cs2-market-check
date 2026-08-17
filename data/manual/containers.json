@@ -1,0 +1,296 @@
+{
+  "Sealed Dead Hand Terminal": {
+    "still_dropping": true,
+    "rare_slot": "gloves",
+    "discontinued_date": null,
+    "notes": "Entrou no pool ativo a 2026-03-11, substituindo a Recoil Case. Cerca de 32% de hipótese nos care packages semanais, o dobro das outras caixas ativas. É a mais recente das duas 'Terminal'.",
+    "verified": false
+  },
+  "Sealed Genesis Terminal": {
+    "still_dropping": true,
+    "rare_slot": "gloves",
+    "discontinued_date": null,
+    "notes": "Entrou no pool ativo a 2025-09-17. Primeira caixa em formato 'Terminal'.",
+    "verified": false
+  },
+  "Kilowatt Case": {
+    "still_dropping": true,
+    "rare_slot": "knives",
+    "discontinued_date": null,
+    "notes": "Introduziu a Kukri Knife. No pool ativo desde o lançamento (~jan/fev 2024).",
+    "verified": false
+  },
+  "Revolution Case": {
+    "still_dropping": true,
+    "rare_slot": "knives",
+    "discontinued_date": null,
+    "notes": "No pool ativo desde o lançamento (2023-01-31).",
+    "verified": false
+  },
+  "Dreams & Nightmares Case": {
+    "still_dropping": true,
+    "rare_slot": "knives",
+    "discontinued_date": null,
+    "notes": "No pool ativo desde o lançamento (2021-11-17) — a mais antiga das caixas ainda ativas.",
+    "verified": false
+  },
+  "Fever Case": {
+    "still_dropping": true,
+    "rare_slot": "knives",
+    "discontinued_date": null,
+    "notes": "Caixa Armory (troca-se com Pass Stars, não é drop semanal gratuito). Spec explícita: não tratar como descontinuada — a oferta continua a crescer, só que por outro mecanismo. Confirmar.",
+    "verified": false
+  },
+  "Gallery Case": {
+    "still_dropping": true,
+    "rare_slot": "gloves",
+    "discontinued_date": null,
+    "notes": "Caixa Armory, mesmo caso da Fever Case — oferta continua a crescer via troca de Pass Stars, não via drop gratuito. Confirmar.",
+    "verified": false
+  },
+  "Recoil Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2026-03",
+    "notes": "Saiu do pool ativo a 2026-03-11 quando a Sealed Dead Hand Terminal entrou.",
+    "verified": false
+  },
+  "Operation Riptide Case": {
+    "still_dropping": false,
+    "rare_slot": "gloves",
+    "discontinued_date": "2021-11",
+    "notes": "Data aproximada — confirmar.",
+    "verified": false
+  },
+  "Snakebite Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2021-09",
+    "notes": "Data aproximada — confirmar.",
+    "verified": false
+  },
+  "Operation Broken Fang Case": {
+    "still_dropping": false,
+    "rare_slot": "gloves",
+    "discontinued_date": "2021-07",
+    "notes": "Introduziu Skeleton Knife e luvas Broken Fang. Data aproximada — confirmar.",
+    "verified": false
+  },
+  "Fracture Case": {
+    "still_dropping": false,
+    "rare_slot": "gloves",
+    "discontinued_date": "2020-12",
+    "notes": "Data de lançamento ~2020-07/08, saída do pool aproximada — confirmar.",
+    "verified": false
+  },
+  "CS20 Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2020-12",
+    "notes": "Caixa comemorativa dos 20 anos da série. Data aproximada — confirmar.",
+    "verified": false
+  },
+  "Prisma 2 Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2020-08",
+    "notes": "Data aproximada — confirmar.",
+    "verified": false
+  },
+  "Shattered Web Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2020-05",
+    "notes": "Data aproximada — confirmar.",
+    "verified": false
+  },
+  "Prisma Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2020-06",
+    "notes": "Stiletto, Talon, Ursus, Navaja. Exemplo dado na especificação original — dados de alta confiança.",
+    "verified": false
+  },
+  "Danger Zone Case": {
+    "still_dropping": false,
+    "rare_slot": "gloves",
+    "discontinued_date": "2019-05",
+    "notes": "Data aproximada — confirmar.",
+    "verified": false
+  },
+  "Horizon Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2018-12",
+    "notes": "Data aproximada — confirmar.",
+    "verified": false
+  },
+  "Clutch Case": {
+    "still_dropping": false,
+    "rare_slot": "gloves",
+    "discontinued_date": "2018-08",
+    "notes": "Data aproximada — confirmar.",
+    "verified": false
+  },
+  "Spectrum 2 Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2017-11",
+    "notes": "Data aproximada — confirmar.",
+    "verified": false
+  },
+  "Operation Hydra Case": {
+    "still_dropping": false,
+    "rare_slot": "gloves",
+    "discontinued_date": "2017-06",
+    "notes": "Introduziu as luvas Hydra. Data aproximada — confirmar.",
+    "verified": false
+  },
+  "Spectrum Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2017-06",
+    "notes": "Data aproximada — confirmar.",
+    "verified": false
+  },
+  "Chroma 3 Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2017-02",
+    "notes": "Data aproximada — confirmar.",
+    "verified": false
+  },
+  "Glove Case": {
+    "still_dropping": false,
+    "rare_slot": "gloves",
+    "discontinued_date": "2019-05",
+    "notes": "Primeira caixa a introduzir luvas (2016-11). Exemplo dado na especificação original — dados de alta confiança.",
+    "verified": false
+  },
+  "Gamma 2 Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2016-11",
+    "notes": "Data aproximada — confirmar.",
+    "verified": false
+  },
+  "Gamma Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2016-06",
+    "notes": "Introduziu Gamma Doppler. Data aproximada — confirmar.",
+    "verified": false
+  },
+  "Revolver Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2016-04",
+    "notes": "Data aproximada — confirmar. Não confundir com a arma R8 Revolver que também introduziu.",
+    "verified": false
+  },
+  "Shadow Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2016-02",
+    "notes": "Introduziu as Shadow Daggers. Data aproximada — confirmar.",
+    "verified": false
+  },
+  "Falchion Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2015-11",
+    "notes": "Introduziu a Falchion Knife. Data aproximada — confirmar.",
+    "verified": false
+  },
+  "Chroma 2 Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2015-11",
+    "notes": "Data aproximada — confirmar.",
+    "verified": false
+  },
+  "Operation Vanguard Weapon Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2015-09",
+    "notes": "Data aproximada — confirmar. Menos conhecida, prioridade baixa de verificação.",
+    "verified": false
+  },
+  "Chroma Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2015-09",
+    "notes": "Data aproximada — confirmar.",
+    "verified": false
+  },
+  "CS:GO Weapon Case 3": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2015-03",
+    "notes": "Data aproximada — confirmar.",
+    "verified": false
+  },
+  "Winter Offensive Weapon Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2015-03",
+    "notes": "Data aproximada — confirmar.",
+    "verified": false
+  },
+  "eSports 2014 Summer Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2015-01",
+    "notes": "Data aproximada — confirmar. Menos conhecida, prioridade baixa de verificação.",
+    "verified": false
+  },
+  "Operation Breakout Weapon Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2015-01",
+    "notes": "Introduziu a Butterfly Knife. Data aproximada — confirmar.",
+    "verified": false
+  },
+  "Huntsman Weapon Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2015-01",
+    "notes": "Introduziu a Huntsman Knife. Data aproximada — confirmar.",
+    "verified": false
+  },
+  "Operation Phoenix Weapon Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2014-09",
+    "notes": "Data aproximada — confirmar.",
+    "verified": false
+  },
+  "CS:GO Weapon Case 2": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2014-09",
+    "notes": "Data aproximada — confirmar.",
+    "verified": false
+  },
+  "Operation Bravo Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2014-02",
+    "notes": "Removida do pool raro em 2025-12 junto com a CS:GO Weapon Case original. Data de saída do drop gratuito aproximada — confirmar.",
+    "verified": false
+  },
+  "eSports 2013 Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2014-02",
+    "notes": "Data aproximada — confirmar. Menos conhecida, prioridade baixa de verificação.",
+    "verified": false
+  },
+  "CS:GO Weapon Case": {
+    "still_dropping": false,
+    "rare_slot": "knives",
+    "discontinued_date": "2014-02",
+    "notes": "A caixa original (2013-08). Estava na 'rare pool' escondida até esta ser removida em 2025-12 sem aviso — desde então totalmente fora do drop gratuito.",
+    "verified": false
+  }
+}
