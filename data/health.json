@@ -1,7 +1,9 @@
 {
-  "ultimo_snapshot_ok": "2026-11-27",
-  "gravado_em_utc": "2026-11-27T11:40:58.079576+00:00",
-  "n_itens_skinport": 37444,
-  "n_itens_steam": 42,
-  "avisos": []
+  "ultimo_snapshot_ok": "2026-11-28",
+  "gravado_em_utc": "2026-11-28T11:14:13.402650+00:00",
+  "n_itens_skinport": 37498,
+  "n_itens_steam": 0,
+  "avisos": [
+    "A Steam não respondeu para 42 caixas hoje (bloqueio de IP ou item sem dados)."
+  ]
 }
